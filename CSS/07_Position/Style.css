@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+.box1{
+    background-color: yellow;
+}
+
+.box2{
+    background-color: pink;
+    position: sticky;
+    top: 0; ;
+}
+.box3{
+    background-color: lightblue;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+.box4{
+    background-color: blueviolet;
+    position: relative;
+    top: o;
+}
+.parent{
+    height: 400px;
+    width: 400px;
+    background-color: brown;
+    position: relative;
+}
+.box5{
+ background-color: lightgreen;
+ position: absolute;
+ right: 0;
+
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            user-select: none;
+        }
+        h1{
+            transition: 1s;
+        }
+        h1:hover{
+            background-color: red;
+            color: whitesmoke;
+            cursor: grab;
+        }
+        h1:active{
+            cursor:grabbing;
+            background-color: violet;
+            color: black;
+        }
+        a:link{
+            color: greenyellow;
+        }
+        a:active{
+            color:darkgoldenrod;
+        }
+        a:visited{
+            color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <h1>Learn Pseudo Class Selector </h1>
+    <a href="https://www.ajio.com">ajio</a>
+    <br>
+    <a href="https://www.meesho.com">meesho</a>
+</body>
+</html>
